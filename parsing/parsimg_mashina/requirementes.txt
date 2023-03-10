@@ -1,0 +1,77 @@
+
+requests
+beautifulsoup4
+
+
+
+user@user-Aspire-5750G:~$ cd Desctop
+bash: cd: Desctop: No such file or directory
+user@user-Aspire-5750G:~$ cd Desktop
+user@user-Aspire-5750G:~/Desktop$ cd py 26.py
+bash: cd: too many arguments
+user@user-Aspire-5750G:~/Desktop$ cd py.26
+user@user-Aspire-5750G:~/Desktop/py.26$ ls
+data_types  files  HTML-SCC  linuxcommands
+user@user-Aspire-5750G:~/Desktop/py.26$ mkdir parsing
+user@user-Aspire-5750G:~/Desktop/py.26$ cd parsing
+user@user-Aspire-5750G:~/Desktop/py.26/parsing$ ls
+user@user-Aspire-5750G:~/Desktop/py.26/parsing$ ls
+user@user-Aspire-5750G:~/Desktop/py.26/parsing$ mkdir parsimg_mashina
+user@user-Aspire-5750G:~/Desktop/py.26/parsing$ cd parsimg_mashina
+user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ python3 -m venv venv
+user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ ls
+venv
+user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ source venv/
+bash: source: venv/: is a directory
+user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ . venv/bin/active
+bash: venv/bin/active: No such file or directory
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ touch requirementes.txt
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ nano requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ nano requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirementes.txt 
+ERROR: Could not find a version that satisfies the requirement requirests (from -r requirementes.txt (line 2)) (from versions: none)
+ERROR: No matching distribution found for requirests (from -r requirementes.txt (line 2))
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirementes.txt 
+ERROR: Could not find a version that satisfies the requirement requirests (from -r requirementes.txt (line 2)) (from versions: none)
+ERROR: No matching distribution found for requirests (from -r requirementes.txt (line 2))
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ nano requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirementes.txt 
+Collecting requests
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     |████████████████████████████████| 62 kB 318 kB/s 
+ERROR: Could not find a version that satisfies the requirement beatifulsoup4 (from -r requirementes.txt (line 3)) (from versions: none)
+ERROR: No matching distribution found for beatifulsoup4 (from -r requirementes.txt (line 3))
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ nano requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ nano requirementes.txt 
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ pip install -r requirementes.txt 
+Collecting requests
+  Using cached requests-2.28.2-py3-none-any.whl (62 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+     |████████████████████████████████| 128 kB 565 kB/s 
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (195 kB)
+     |████████████████████████████████| 195 kB 1.4 MB/s 
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 49 kB/s 
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 1.5 MB/s 
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.14-py2.py3-none-any.whl (140 kB)
+     |████████████████████████████████| 140 kB 938 kB/s 
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Installing collected packages: charset-normalizer, idna, certifi, urllib3, requests, soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.11.1 certifi-2022.12.7 charset-normalizer-3.0.1 idna-3.4 requests-2.28.2 soupsieve-2.3.2.post1 urllib3-1.26.14
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ touch parse.py
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ ls
+parse.py  requirementes.txt  venv  yes
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ code .
+(venv) user@user-Aspire-5750G:~/Desktop/py.26/parsing/parsimg_mashina$ http://www.example.com/
+
+
